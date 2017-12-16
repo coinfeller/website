@@ -79,7 +79,7 @@ fr:
             - |
               Quiconque détenait des Bitcoins au moment de la création de Bitcoins Cash est devenu un détenteur de Bitcoins Cash. Cela signifie que tous les détenteurs de Bitcoins au bloc 478558 (1er août 2017 vers 13h16 UTC) ont le même montant de Bitcoin Cash s'ils avaient des Bitcoins à ce moment. Si vos Bitcoins étaient stockés par un tiers comme une plateforme d'échange, vous devez leur exiger vos Bitcoins Cash.
             - |
-              Toutes transactions après la fourche du 1er août 2017 sont complètement distinctes entre Bitcoin et Bitcoin Cash. Cela signifie que les Bitcoins acquis après la fourche n'inclus pas de Bitcoin Cash, et que les transactions Bitcoin Cash n'inclus pas de Bitcoin.
+              Toutes transactions après le fork du 1er août 2017 sont complètement distinctes entre Bitcoin et Bitcoin Cash. Cela signifie que les Bitcoins acquis après la fourche n'inclus pas de Bitcoin Cash, et que les transactions Bitcoin Cash n'inclus pas de Bitcoin.
         - question: "Comment les transactions miroirs sont gérés entre la nouvelle et l'ancienne Blockchain?"
           answer:
             - |
@@ -97,32 +97,31 @@ fr:
         - question: "Est-ce que Bitcoin Cash règle ces problèmes?"
           answer:
             - |
-              Oui. Bitcoin Cash a augmenté la limite de taille des blocs à 8MB comme plan d'évolutivité massif sur la Blockchain. Il y a désormais une capacité ample pour les transactions de chacun.
+              Oui. Bitcoin Cash a immédiatement augmenté la taille des blocs à 8Mo, pour commencer. Cette capacité suffit largement pour l'utilisation actuelle et fait partie d'un plan d'augmentation de la capacité massif.
             - |
-              Les frais faibles et une confirmation rapide sont revenus avec Bitcoin Cash. Le réseau est en train de croître de nouveau. Utilisateurs, commerçants, entreprises, et investisseurs sont en train de construire le futur avec une monnaie pair-à-pair.
+              Des frais de transaction dérisoires, des temps de transaction quasi-instantanés, des temps de confirmation à la fois rapide et prédictibles sont enfin de retour avec Bitcoin Cash. Le réseau peut croître de nouveau. Utilisateurs, commerçants, entreprises, et investisseurs sont en train de construire le futur avec une monnaie pair-à-pair.
         - question: "Pourquoi la taille des blocs Bitcoin n'a pas été augmenté si cela était simple?"
           answer:
             - |
               Certains développeurs ne comprenait et n'acceptait pas la vision originelle de Satoshi Nakamoto d'une monnaie virtuelle pair-à-pair. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Au lieu de cela, ils ont préféré que Bitcoin deviennent une couche de règlement</a>.
             - |
-              Beaucoup de mineurs et d'utilisateurs croyaient en ces développeurs, alors que d'autres reconnaissaient qu'ils étaient en train de mener la communauté sur une route différente que celle attendue.
+              Beaucoup de mineurs et d'utilisateurs croyaient en ces développeurs, alors que d'autres ont compris qu'ils étaient en train de mener la communauté sur une route différente de celle prévue.
             - |
-              Ces deux visions différentes de Bitcoin étaient largements incompatibles, ce qui mena à une division de la communauté.
+              Ces deux visions différentes de Bitcoin étaient largements incompatibles, et a donc conduit à la division de la communauté.
         - question: "SegWit a déjà augmenté la taille des blocs, non? Est-ce que Bitcoin Cash aura SegWit?"
           answer:
             - |
               'Segregated Witness' ou 'SegWit' est un substitut inacceptable pour augmenter la taille des blocs pour plusieurs raisons.
             - |
-              Premièrement, même si utilisé par 100% des transactions, cela représenterait seulement une hausse de 1.7MB par bloc. Ainsi, ce serait une petite augmentation de capacité au mieux. Cela ne permettrait pas une croissance exponentiel ou un usage mondialisé. Deuxièmement, une fourche douce résulte dans des signatures pouvant être rejetés, qui  <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">affaiblie le modèle de sécurité de Bitcoin.</a> Troisièmement, cela rend les futures augmentations de capacité plus difficile dû au fait que la bande passante sera inefficiente et que SegWit ne résout pas les attaques de type hashing quadratique, puisque un assaillant n'est pas forcé de l'utiliser.
-            - |
-              Pour ces raisons (et d'autres), Bitcoin Cash était nécessaire comme fourche pre-SegWit. Segwit ne sera pas adopté.
+
+              Premièrement, même si utilisé par 100% des transactions, cela représenterait seulement une hausse de 1.7MB par bloc. Il en résulte une augmentation de capacité au mieux dérisoire. Cela ne permet pas une croissance exponentielle ni un usage mondialisé. Deuxièmement, l'implémentation de Segwit par un "soft fork" (par opposition aux hard forks que Bitcoin Cash favorise) l'implémentation implique des champ de signatures vierges, ce qui <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">diminue la sécurité des transactions Bitcoin.</a>. Troisièmement, les futurs augmentation de capacité seront rendus plus difficile car SegWit en réalité augmente la taille individuelle des transactions et ne régle pas le problème du hashing quadratique pour les transactions non-SegWit. Ces inneficiences constituent en outre des opportunités supplémentaires pour un éventuel attaquant, puisqu'il n'est pas obligé d'utiliser le format de transaction segwit. 
         - question: "Quelle équipe de développement est en charge de Bitcoin Cash?"
           answer:
             - |
               Contrairement à des situations précédentes dans Bitcoin, il n'y a pas d'équipe de développement unique pour Bitcoin Cash. Il y a désormais plusieurs équipes indépendantes de développeurs.
             - |
-              Cette décentralisation du développement (et décentralisation des implémentations logiciels) était fortement nécessaire et représente un grand pas en avant.
+              Cette décentralisation du développement (et décentralisation des implémentations logiciels) était réellement nécessaire et représente un grand pas en avant, ainsi qu'une garantie de pérénité pour les utilisateurs.
         - question: "Quelle est le code symbole pour Bitcoin Cash?"
           answer:
             - |
-              Bitcoin Cash est représenté par un nombre différent de code symbole dépendant du service ou du portefeuille. BCH/BCC sont les codes les plus populaires, avec XBC utilisé pour se conformer aux Standards Internationaux pour les codes de devises (ISO 4217).
+              Bitcoin Cash est actuellement représenté par deux ticker selon le service ou le porte monnaie électronique utilisé. BCH ou BCC sont les plus utilisés, avec XBC qui est le symbole international conforme à ISO 4217.
