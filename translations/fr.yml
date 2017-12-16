@@ -105,17 +105,18 @@ fr:
         - question: "Est-ce que Bitcoin Cash régle ces problèmes ?"
           answer:
             - |
-              Yes. Bitcoin Cash immediately raised the block size limit to 8MB as part of a massive on-chain scaling approach. There is ample capacity for everyone's transactions.
+              Oui. Bitcoin Cash a immédiatement augmenté la taille des blocs à 8Mo, pour commencer. Cette capacité suffit largement pour l'utilisation actuelle.
             - |
-              Low fees and fast confirmations have returned with Bitcoin Cash. The network is growing again. Users, merchants, businesses, and investors are building the future with real peer to peer cash.
+              Des frais de transaction dérisoires, des temps de transaction quasi-instantanés et des temps de confirmation à la fois faible et prédictibles sont de retour avec Bitcoin Cash. Le réseau croît à nouveau. Utilisateurs, marchands, entreprises et investisseurs construisent le futur grâce à une monnaie électronique pair à pair.
         - question: "Pourquoi Bitcoin n'a pas simplement augmenté la taille des blocs, puisque c'était si simple ?"
           answer:
             - |
-              Some of the developers did not understand and agree with the original vision of peer-to-peer electronic cash that Satoshi Nakamoto had created. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Instead, they preferred Bitcoin become a settlement layer</a>.
+              Certains développeurs n'ont pas compris ou n'étaient pas d'accord avec la vision d'un système de paiment électronique pair à pair que Satoshi Nakamoto à créé. 
+              <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">C'est la raison pour laquelle ils ont préféré que Bitcoin devienne un système de liquidation des transactions.</a>.
             - |
-              Many miners and users trusted these developers, while others recognized that they were leading the community down a different road than expected.
+              Beaucoup de mineurs et d'utilisateurs ont crû ces dévellopeurs, tandis que d'autres ont compris que ces changements allaient conduire la communauté dans une direction différente que celle en laquelle ils croyaient.
             - |
-              These two very different visions for Bitcoin are largely incompatible, which led to the community divide.
+              Ces deux visions de Bitcoin sont très différentes et incompatibles, elles ont finalement conduit à une partition de la communauté.
         - question: "SegWit n'augmente-t-il pas la taille des blocs ? Est-ce que SegWit sera impémenté dans Bitcoin Cash ?"
           answer:
             - |
