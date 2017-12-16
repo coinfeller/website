@@ -119,18 +119,18 @@ fr:
         - question: "SegWit n'augmente-t-il pas la taille des blocs ? Est-ce que SegWit sera impémenté dans Bitcoin Cash ?"
           answer:
             - |
-              Segregated Witness or "SegWit" is an unacceptable substitute for increasing the blocksize for several reasons.
+              "Segregated Witness" (ou) "SegWit") est inacceptable en tant que substitut pour une augmentation de la taille de blocs pour plusieurs raisons.
             - |
-              First, even if used in 100% of transactions, the increase would equate to 1.7MB blocks. Thus, it is a small capacity increase at best. It will not handle exponential growth or worldwide usage. Second, the soft fork implementation results in discardable signatures, which <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">weakens Bitcoin's security model.</a> Third, it makes future capacity increases more difficult due to bandwidth inefficiency and quadratic hashing attacks which SegWit doesn't solve since an attacker isn't forced to use it.
+              Pour commencer, même si SegWit est utilisé pour 100% des transactions, l'augmentation d'espace qui en résulterait serait au mieux équivalent à une taille de blocs de 1.7 Mo. Il s'agit au mieux d'une petite augmentation de capacité dérisoire. Cette capacité ne peut en aucun cas permettre de gérer la croissance exponentielle du nombre d'utilisateurs, sans parler d'un usage global (à l'échelle mondiale). Deuxièmement, l'implémentation de Segwit par un "soft fork" (par opposition aux hard forks que Bitcoin Cash favorise) l'implémentation implique des champ de signatures vierges, ce qui <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">diminue la sécurité des transactions Bitcoin.</a> Troisièmement, les futurs augmentation de capacité seront rendus plus difficile car SegWit en réalité augmente la taille individuelle des transactions et ne régle pas le problème du quadratic hashing pour les transactions non-SegWit. Ces inneficiences constituent des opportunités supplémentaires pour un éventuel attaquant - qui n'est pas obligé d'utiliser le format de transaction segwit.
             - |
-              For those (and other) reasons, Bitcoin Cash was necessary as a pre-SegWit fork. Segwit will not be adopted.
+              Pour ces raisons (et d'autres), il était nécessaire de forker Bitcoin Cash avant que Segwit ne soit activé. Et SegWit ne sera probablement jamais adopté sur Bitcoin Cash. 
         - question: "Quelle équipe de développement est responsable du Bitcoin Cash?"
           answer:
             - |
-              Unlike the previous situation in Bitcoin, there is no one single development team for Bitcoin Cash. There are now multiple independent teams of developers.
+              Contrairement à la situation du projet Bitcoin, il n'y a pas qu'une seule équipe de développement "de référence" en charge de Bitcoin Cash. Il y a plusieurs équipes de développement indépendantes.
             - |
-              This decentralization of development (and decentralization of software implementations) is a much needed and important step forward.
+              Cette décentralisation du développement (et cette décentralisation des implémentation logicielles) est un important pas en avant et une garantie de pérénité pour les utilisateurs.
         - question: "Quel est le ticker/symbole de Bitcoin Cash?"
           answer:
             - |
-              Bitcoin Cash is represented by a number of different ticker symbols depending on the service or wallet. BCH/BCC are the most popular tickers, with XBC being used to meet the International Standard for currency codes (ISO 4217).
+              Bitcoin Cash est actuellement représenté par deux ticker selon le service ou le porte monnaie électronique utilisé. BCH ou BCC sont les plus utilisés, avec XBC qui est le symbole international selon ISO 4217.
